@@ -1,5 +1,5 @@
 {
-    "name": "indragunawan/api-rate-limit-bundle",
+    "name": "justera/api-rate-limit-bundle",
     "type": "symfony-bundle",
     "description": "Rate limits protection for api-platform resources.",
     "keywords": ["api-platform", "rate-limit"],
