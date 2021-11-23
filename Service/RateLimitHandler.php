@@ -218,7 +218,7 @@ class RateLimitHandler
 
                 foreach ($rolesConfig as $role => $throttle) {
                     if ($this->authorizationChecker->isGranted($role)) {
-                        $username = $token->getUsername();
+                        $username = $token->getUserIdentifier();
                         $userRole = $role;
                         $limit = $throttle['limit'];
                         $period = $throttle['period'];
