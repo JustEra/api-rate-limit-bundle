@@ -57,7 +57,7 @@ class RateLimitListener
         }
 
         // only process on master request
-        if (!$event->isMasterRequest()) {
+        if (!$event->isMainRequest()) {
             return;
         }
 
